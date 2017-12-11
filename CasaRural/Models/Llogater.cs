@@ -16,6 +16,6 @@ namespace CasaRural.Models
         [Display(Name = "Codi postal")]
         public int PostCode { get; set; }
 
-        public List<Reserva> Reservas { get; set; }
+        public virtual List<Reserva> Reservas { get; set; }
     }
 }

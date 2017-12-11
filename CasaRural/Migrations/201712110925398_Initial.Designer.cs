@@ -13,7 +13,7 @@ namespace CasaRural.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201712102117062_Initial"; }
+            get { return "201712110925398_Initial"; }
         }
         
         string IMigrationMetadata.Source

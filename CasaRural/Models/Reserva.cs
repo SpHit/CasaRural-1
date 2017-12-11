@@ -20,6 +20,6 @@ namespace CasaRural.Models
 
         [Display(Name = "Llogater")]
         public string llogaterId { get; set; }
-        public Llogater llogater { get; set; }
+        public virtual Llogater llogater { get; set; }
     }
 }
